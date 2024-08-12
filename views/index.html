@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Hoe Grocery Ltd.</title>
+    <link rel="stylesheet" href="/public/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-banner">
+            <span>DISCOUNT EXPLOSION WEEKEND | Join our amazing bi-weekly event!</span>
+            <a href="#">Get Your Favorite Products on Discount!</a>
+        </div>
+        <div class="main-header">
+            <div class="logo">
+                <img src="/public/images/OIP (4).jpeg" alt="Happy Hoe Grocery Ltd. Logo">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="user-options">
+                <a href="#">Deliver to: UG</a>
+                <a href="#">English-UGX</English-UGX></a>
+                <a href="login.html">Sign in</a>
+            </div>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search products, brands and categories">
+            <button onclick="performSearch()">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-banner">
+            <div class="banner-content">
+                <h1>EXPLOSION WEEKEND</h1>
+                <h2>Rice, Soybeans, Vegetables & More!</h2>
+                <a href="#" class="shop-now-btn">View Now</a>
+            </div>
+            <div class="banner-slider">
+                <img class="slide" src="/public/images/images (22).jpeg" alt="Rice">
+                <img class="slide" src="/public/images/images (31).jpeg" alt="Soybeans">
+                <img class="slide" src="/public/images/images (28).jpeg" alt="Vegetables">
+                <img class="slide" src="/public/images/happy-couple-enjoying-day-out-together_972324-68154.jpg" alt="People">
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <h2>Season's Most Purchased Goods
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align: middle;">
+                    <path d="M12 21L3 9H9V3H15V9H21L12 21Z" fill="black"/>
+                </svg>
+            </h2>
+            <div class="category-list">
+                <div class="category">
+                    <img src="/public/images/images (53).jpeg" alt="Rice">
+                    <h3>Rice</h3>
+                </div>
+                <div class="category">
+                    <img src="/public/images/images (32).jpeg" alt="Soybeans">
+                    <h3>Soybeans</h3>
+                </div>
+                <div class="category">
+                    <img src="/public/images/images (33).jpeg" alt="Beans">
+                    <h3>Beans</h3>
+                </div>
+                <div class="category">
+                    <img src="/public/images/images (23).jpeg" alt="Fruits & Vegetables">
+                    <h3>Fruits & Vegetables</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="review-list">
+                <div class="review">
+                    <p>"Great quality produce and excellent service!" - Luiza Masiga</p>
+                    <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                </div>
+                <div class="review">
+                    <p>"Fresh and affordable products. Highly recommended!" - Iragaba Simon</p>
+                    <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="deals-of-the-day" class="deals-of-the-day">
+            <h2>Deals of the Day</h2>
+            <div class="deal-list">
+                <div class="deal">
+                    <img src="/public/images/images (56).jpeg" alt="Deal 1">
+                    <h3>Discounted Rice</h3>
+                    <p>Get 20% off on all rice products.</p>
+                </div>
+                <div class="deal">
+                    <img src="/public/images/images (54).jpeg" alt="Deal 2">
+                    <h3>Soybeans Offer</h3>
+                    <p>Buy 2 kg, get 1 kg free!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recommendations" class="personalized-recommendations">
+            <h2>Popular Products</h2>
+            <div class="product-slideshow">
+                <div class="product-slide">
+                    <img src="/public/images/images (56).jpeg" alt="Popular Rice">
+                    <h3>Popular Rice</h3>
+                    <p>Expiry Date: 2024-12-31</p>
+                </div>
+                <div class="product-slide">
+                    <img src="/public/images/images (54).jpeg" alt="Popular Soybeans">
+                    <h3>Popular Soybeans</h3>
+                    <p>Expiry Date: 2025-01-15</p>
+                </div>
+                <div class="product-slide">
+                    <img src="/public/images/images (55).jpeg" alt="Popular Vegetables">
+                    <h3>Popular Vegetables</h3>
+                    <p>Expiry Date: 2024-11-20</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Contact us: +256780196215 | clairemasiga22@gmail.com</p>
+            <p>&copy; 2024 Happy Hoe Grocery Ltd.</p>
+            <div class="social-media">
+                <a href="#"><img src="/public/images/download (1).jpeg" alt="Facebook"></a>
+                <a href="#"><img src="/public/images/OIP (5).jpeg" alt="Twitter"></a>
+                <a href="#"><img src="/public/images/OIP (3).jpeg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/public/scripts/grocery.js"></script>
+</body>
+</html>
